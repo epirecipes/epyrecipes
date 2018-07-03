@@ -4,14 +4,14 @@ with open('README.rst', 'r') as f:
     long_description = f.read()
 
 setup(
-    name='makenew-python-package',
-    version='1.2.0',
-    author='Evan Sosenko',
-    author_email='razorx@evansosenko.com',
+    name='epyrecipes',
+    version='0.1',
+    author='Simon Frost',
+    author_email='sdwfrost@gmail.com',
     packages=find_packages(exclude=['docs']),
-    url='https://github.com/makenew/python-package',
+    url='https://github.com/epirecipes/epyrecipes',
     license='MIT',
-    description='Python package skeleton.',
+    description='epirecipes for Python',
     long_description=long_description,
     install_requires=[
     ]
